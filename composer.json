@@ -1,0 +1,24 @@
+{
+    "name": "manick/magento2-admin-pins",
+    "description": "A Magento 2 module to pin Admin pages for quick access",
+    "version": "1.0.0",
+    "type": "magento2-module",
+    "keywords": [
+        "magento2",
+        "admin",
+        "pin",
+        "favourite"
+    ],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Adarsh Manickam",
+            "email": "adarsh.apple@icloud.com",
+            "homepage": "https://manick.am",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": "^7.0|^8.0"
+    }
+}
