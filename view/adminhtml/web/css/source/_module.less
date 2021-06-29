@@ -1,0 +1,27 @@
+.manickAdminPins {
+    position: fixed;
+    top: 0;
+    right: 0;
+    display: flex;
+    z-index: 500;
+
+    .links {
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        transform: translateX(100%);
+        transition: 0.3s;
+        transition-property: transform;
+        padding: 0 20px;
+
+        &.open {
+            transform: translateX(0);
+        }
+
+        .marker {
+            position: absolute;
+            transform: translateX(-100%);
+            padding: 0 20px;
+        }
+    }
+}
